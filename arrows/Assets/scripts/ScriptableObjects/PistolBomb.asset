@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2566c0b849d779f40adacf3ded46415b, type: 3}
+  m_Name: PistolBomb
+  m_EditorClassIdentifier: 
+  AttackName: Bomb
+  AttackChargePrefab: {fileID: 7201756721293134432, guid: d1122a1c0f78bba428248182663ecff4, type: 3}
+  BulletPrefab: {fileID: 9073254311068296223, guid: 613a7aa77ffc53e4cb6461684c6d2cc0, type: 3}
+  Charge: 0
+  ChargeMax: 10
+  ChargeBySec: 4
+  BulletType: 2
+  NextBullet: {fileID: 11400000, guid: 920f0ec4c5230e940b0f7c319ef77231, type: 2}
+  isTargetMouse: 1
+  LifeTime: 0.75
+  InitialSpeed: 15
+  NumBulletMax: 50
+  Frequency: 10
+  CoolDown: 0

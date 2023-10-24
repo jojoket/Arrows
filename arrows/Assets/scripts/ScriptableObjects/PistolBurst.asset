@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2566c0b849d779f40adacf3ded46415b, type: 3}
+  m_Name: PistolBurst
+  m_EditorClassIdentifier: 
+  AttackName: Buurst
+  AttackChargePrefab: {fileID: 7201756721293134432, guid: e4fbf7d6288a01f42b8d2d2361c62bab, type: 3}
+  BulletPrefab: {fileID: 9073254311068296223, guid: e0758cea6f5538441ac87f46e7ea8708, type: 3}
+  Charge: 0
+  ChargeMax: 10
+  ChargeBySec: 4
+  BulletType: 1
+  NextBullet: {fileID: 11400000, guid: 56c5f84b5e9a77d46846e60d02f11256, type: 2}
+  isTargetMouse: 1
+  LifeTime: 0.75
+  InitialSpeed: 10
+  NumBulletMax: 10
+  Frequency: 10
+  CoolDown: 0
